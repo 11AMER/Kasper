@@ -847,7 +847,8 @@ header .form {
   resize: none;
 }
 .contact input[type="submit"] {
-  float: right;
+  display: block;
+  margin-left: auto;
   border: none;
   padding: var(--large-items-padding);
   background-color: var(--main-color);
