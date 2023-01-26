@@ -37,15 +37,6 @@ body {
   margin: 0 auto;
   padding: 0 var(--medium-items-padding);
 }
-ul {
-  list-style: none;
-}
-p::first-letter {
-  text-transform: uppercase;
-}
-::placeholder {
-  text-transform: capitalize;
-}
 /* Responsive Design */
 /* Small devices */
 @media (min-width: 768px) {
@@ -64,6 +55,15 @@ p::first-letter {
   .container {
     width: 1170px;
   }
+}
+ul {
+  list-style: none;
+}
+p::first-letter {
+  text-transform: uppercase;
+}
+::placeholder {
+  text-transform: capitalize;
 }
 /* Global Rules End */
 /* Components Start */
